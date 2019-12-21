@@ -16,7 +16,7 @@ size_t readn(int fd, void *buffer, size_t size) {
                 return -1;
         } else if (result == 0) 
             break;
-        length = result;
+        length -= result;
         buffer_pointer += result;
     }
     return (size - length);  // 返回实际读取的字节数
@@ -34,6 +34,7 @@ void read_data(int sockfd) {
         fprintf(stdout, "1K read for %d \n", time);
         usleep(1000);
     }
+    fprintf(stdout, "read finish\n");
 }
 
 
