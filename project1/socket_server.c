@@ -34,7 +34,6 @@ void read_data(int sockfd) {
         fprintf(stdout, "1K read for %d \n", time);
         usleep(1000);
     }
-    fprintf(stdout, "read finish\n");
 }
 
 
@@ -58,6 +57,7 @@ int main() {
         clilen = sizeof(cliaddr);
         connfd = accept(listenfd, (struct sockaddr *)&cliaddr, &clilen);
         read_data(connfd);
+        fprintf(stdout, "read finish\n");
         close(connfd);
     }
 
