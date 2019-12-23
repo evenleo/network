@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/even/workspace/network-programming/project1/socket_client.c
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+errno.h
+-
+

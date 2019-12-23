@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/even/workspace/network-programming/project2/udp_client.c
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+errno.h
+-
+

@@ -26,7 +26,10 @@ set(TEST_MAIN
   ${DIR_SRCS}
 )
 
+add_executable(socket_server project1/socket_server.c)
 add_executable(socket_client project1/socket_client.c)
 
-add_executable(socket_server project1/socket_server.c)
+add_executable(udp_server project2/udp_server.c)
+add_executable(udp_client project2/udp_client.c)
+
 
