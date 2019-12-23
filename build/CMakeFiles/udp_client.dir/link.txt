@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/udp_client.dir/project2/udp_client.c.o  -o udp_client 

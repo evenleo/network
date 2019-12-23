@@ -1,6 +1,0 @@
-/home/even/workspace/network-programming/build/CMakeFiles/udp_client.dir
-/home/even/workspace/network-programming/build/CMakeFiles/edit_cache.dir
-/home/even/workspace/network-programming/build/CMakeFiles/udp_server.dir
-/home/even/workspace/network-programming/build/CMakeFiles/socket_server.dir
-/home/even/workspace/network-programming/build/CMakeFiles/rebuild_cache.dir
-/home/even/workspace/network-programming/build/CMakeFiles/socket_client.dir
