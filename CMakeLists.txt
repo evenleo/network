@@ -1,35 +1,11 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.1)
 project(network VERSION 1.22.0 LANGUAGES C CXX)
 
-# C standard can be overridden when this is used as a sub-project.
-if(NOT CMAKE_C_STANDARD)
-  # This project can use C11, but will gracefully decay down to C89.
-  set(CMAKE_C_STANDARD 11)
-  set(CMAKE_C_STANDARD_REQUIRED OFF)
-  set(CMAKE_C_EXTENSIONS OFF)
-endif(NOT CMAKE_C_STANDARD)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
 
-# C++ standard can be overridden when this is used as a sub-project.
-if(NOT CMAKE_CXX_STANDARD)
-  # This project requires C++11.
-  set(CMAKE_CXX_STANDARD 11)
-  set(CMAKE_CXX_STANDARD_REQUIRED ON)
-  set(CMAKE_CXX_EXTENSIONS OFF)
-endif(NOT CMAKE_CXX_STANDARD)
+include_directories(${PROJECT_SOURCE_DIR})
 
-#include(project1)
-#check_library_exists(project1 project1_value "" HAVE_PROJECT1)
-
-aux_source_directory(project1 DIR_SRCS)
-
-set(TEST_MAIN
-  ${DIR_SRCS}
-)
-
-add_executable(socket_server project1/socket_server.c)
-add_executable(socket_client project1/socket_client.c)
-
-add_executable(udp_server project2/udp_server.c)
-add_executable(udp_client project2/udp_client.c)
-
-
+add_subdirectory(chap-1/)
+add_subdirectory(chap-2/)
