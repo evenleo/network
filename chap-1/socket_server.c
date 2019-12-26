@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <errno.h>
+#include "lib/common.h"
 
 /* 从 sockfd 描述符中读取 size 个字节 */
 size_t readn(int fd, void *buffer, size_t size) {

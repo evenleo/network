@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <errno.h>
-#include <signal.h>
+#include "lib/common.h"
 
 #define MAXLINE 4096
 
