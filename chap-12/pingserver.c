@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
                 break;
             }
             default :
-            error(1, 0, "unknown message type (%d)\n", ntohl(message.type));
+                error(1, 0, "unknown message type (%d)\n", ntohl(message.type));
         }
     }
 
