@@ -3,7 +3,6 @@
 #define MAXLINE 4096
 
 
-
 int main() {
     int sockfd;
     sockfd = socket(AF_INET, SOCK_DGRAM, 0);

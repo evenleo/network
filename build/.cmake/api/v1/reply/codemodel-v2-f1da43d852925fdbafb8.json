@@ -1,0 +1,272 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "chap-04",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-04",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "chap-05",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-05",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "chap-06",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-06",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "chap-11",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-11",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "chap-12",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-12",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "chap-13",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-13",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "chap-14",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap-14",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "network",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "batchwrite::@55ee60ec8d7592854781",
+					"jsonFile" : "target-batchwrite-Debug-201d434a7c3ac855820a.json",
+					"name" : "batchwrite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "grace_client::@5a3eef42ac35ae481b3d",
+					"jsonFile" : "target-grace_client-Debug-643528064d092d11cfb8.json",
+					"name" : "grace_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "grace_server::@5a3eef42ac35ae481b3d",
+					"jsonFile" : "target-grace_server-Debug-d759b18d4edae30e38e8.json",
+					"name" : "grace_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "make_socket::@85cb1f29f96f31c79c93",
+					"jsonFile" : "target-make_socket-Debug-4d6efbdd37f028956f83.json",
+					"name" : "make_socket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pingclient::@f9cc833878f71a5278dc",
+					"jsonFile" : "target-pingclient-Debug-25af9b6587aabb794c2d.json",
+					"name" : "pingclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pingserver::@f9cc833878f71a5278dc",
+					"jsonFile" : "target-pingserver-Debug-8a2498beb1d9879bf2eb.json",
+					"name" : "pingserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "socket_client::@a000b9949f8d08490685",
+					"jsonFile" : "target-socket_client-Debug-eca4710d4a5bd17eb219.json",
+					"name" : "socket_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "socket_server::@a000b9949f8d08490685",
+					"jsonFile" : "target-socket_server-Debug-45564e11e6bb763e1576.json",
+					"name" : "socket_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "udp_client::@4c75e26bf45bb2c651c5",
+					"jsonFile" : "target-udp_client-Debug-7263bd20b2e444fa7a53.json",
+					"name" : "udp_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "udp_server::@4c75e26bf45bb2c651c5",
+					"jsonFile" : "target-udp_server-Debug-500fefdbaf7cc7324b08.json",
+					"name" : "udp_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "udpconnectclient1::@383bd6661d72630c0be4",
+					"jsonFile" : "target-udpconnectclient1-Debug-a62d24d6a0a3d6e8d452.json",
+					"name" : "udpconnectclient1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "udpconnectclient2::@383bd6661d72630c0be4",
+					"jsonFile" : "target-udpconnectclient2-Debug-e4db9aeecdb0610e586e.json",
+					"name" : "udpconnectclient2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "udpconnectserver::@383bd6661d72630c0be4",
+					"jsonFile" : "target-udpconnectserver-Debug-5b68a76cd6b45afb5d3b.json",
+					"name" : "udpconnectserver",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/even/workspace/network/build",
+		"source" : "/home/even/workspace/network"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

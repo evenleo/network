@@ -7,8 +7,10 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
 
 include_directories(${PROJECT_SOURCE_DIR})
 
-add_subdirectory(chap-1/)
-add_subdirectory(chap-2/)
+add_subdirectory(chap-04/)
+add_subdirectory(chap-05/)
+add_subdirectory(chap-06/)
+add_subdirectory(chap-11/)
 add_subdirectory(chap-12/)
 add_subdirectory(chap-13/)
 add_subdirectory(chap-14/)

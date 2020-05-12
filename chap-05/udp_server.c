@@ -4,12 +4,14 @@
 
 static int count;
 
-static void recvfrom_int(int signo) {
+static void recvfrom_int(int signo) 
+{
     printf("\nreceived %d datagrams\n", count);
 }
 
 
-int main() {
+int main() 
+{
     int sockfd;
     sockfd = socket(AF_INET, SOCK_DGRAM, 0);
 

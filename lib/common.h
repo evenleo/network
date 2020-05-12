@@ -31,5 +31,10 @@
 #include    <sys/epoll.h>
 #endif
 
+#define    SERV_PORT      43211
+#define    MAXLINE        4096
+#define    UNIXSTR_PATH   "/var/lib/unixstream.sock"
+#define    LISTENQ        1024
+#define    BUFFER_SIZE    4096
 
 #endif

@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/even/workspace/network/build/chap-04",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/make_socket.dir/make_socket.c.o   -c /home/even/workspace/network/chap-04/make_socket.c",
+  "file": "/home/even/workspace/network/chap-04/make_socket.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-05",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/udp_server.dir/udp_server.c.o   -c /home/even/workspace/network/chap-05/udp_server.c",
+  "file": "/home/even/workspace/network/chap-05/udp_server.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-05",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/udp_client.dir/udp_client.c.o   -c /home/even/workspace/network/chap-05/udp_client.c",
+  "file": "/home/even/workspace/network/chap-05/udp_client.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-06",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/socket_server.dir/socket_server.c.o   -c /home/even/workspace/network/chap-06/socket_server.c",
+  "file": "/home/even/workspace/network/chap-06/socket_server.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-06",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/socket_client.dir/socket_client.c.o   -c /home/even/workspace/network/chap-06/socket_client.c",
+  "file": "/home/even/workspace/network/chap-06/socket_client.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-11",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/grace_server.dir/grace_server.c.o   -c /home/even/workspace/network/chap-11/grace_server.c",
+  "file": "/home/even/workspace/network/chap-11/grace_server.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-11",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/grace_client.dir/grace_client.c.o   -c /home/even/workspace/network/chap-11/grace_client.c",
+  "file": "/home/even/workspace/network/chap-11/grace_client.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-12",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/pingserver.dir/pingserver.c.o   -c /home/even/workspace/network/chap-12/pingserver.c",
+  "file": "/home/even/workspace/network/chap-12/pingserver.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-12",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/pingclient.dir/pingclient.c.o   -c /home/even/workspace/network/chap-12/pingclient.c",
+  "file": "/home/even/workspace/network/chap-12/pingclient.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-13",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/batchwrite.dir/batchwrite.c.o   -c /home/even/workspace/network/chap-13/batchwrite.c",
+  "file": "/home/even/workspace/network/chap-13/batchwrite.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-14",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/udpconnectserver.dir/udpconnectserver.c.o   -c /home/even/workspace/network/chap-14/udpconnectserver.c",
+  "file": "/home/even/workspace/network/chap-14/udpconnectserver.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-14",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/udpconnectclient1.dir/udpconnectclient1.c.o   -c /home/even/workspace/network/chap-14/udpconnectclient1.c",
+  "file": "/home/even/workspace/network/chap-14/udpconnectclient1.c"
+},
+{
+  "directory": "/home/even/workspace/network/build/chap-14",
+  "command": "/usr/bin/x86_64-redhat-linux-gcc-8  -I/home/even/workspace/network  -g   -o CMakeFiles/udpconnectclient2.dir/udpconnectclient2.c.o   -c /home/even/workspace/network/chap-14/udpconnectclient2.c",
+  "file": "/home/even/workspace/network/chap-14/udpconnectclient2.c"
+}
+]
